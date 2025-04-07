@@ -4,7 +4,7 @@ import MessageList from "./component/MessageList";
 
 const App = () => {
   return (
-    <div>
+    <div className="main-container">
       <Form />
       <MessageList />
     </div>
