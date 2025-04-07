@@ -20,3 +20,10 @@
   padding: 1rem;
   background-image: linear-gradient(254deg, #ee9377 0%, #390639 100%);
 }
+
+@media (max-width: 430px) {
+  .message li {
+    min-width: 10rem;
+    padding: 0.3rem;
+  }
+}
